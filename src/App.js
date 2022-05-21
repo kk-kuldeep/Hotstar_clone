@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './index.css'
-import Header from "./header";
+import Header from "./component/header";
 function App() {
  
   return (
