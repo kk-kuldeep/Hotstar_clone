@@ -1,15 +1,16 @@
 import React, { useState } from "react";
 import './index.css'
-import Header from "./component/header";
-import Home from "./component/home";
+import Header from "./components/Header";
+import Home from './components/Home'
 function App() {
  
   return (
-  <>
-    <Header/>
-    <Home/>
+    <>
+    <Header />
+    <Home />
     </>
   );
 }
 
 export default App;
+  
