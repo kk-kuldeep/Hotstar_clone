@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
-const Viewers = () => {
+const Viewers = (props) => {
+
   return (
     <Container>
       <Wrap>
@@ -23,7 +24,7 @@ const Viewers = () => {
       </Wrap>
       <Wrap>
         <img src="/images/viewers-starwars.png" alt="" />
-        <video autoPlay={true} loop={true} playsInline={true}>
+        <video autoPlay={true} loop={true} playsInline={true} >
           <source src="/videos/1608229455-star-wars.mp4" type="video/mp4" />
         </video>
       </Wrap>
@@ -94,8 +95,10 @@ const Wrap = styled.div`
     border-color: rgba(249, 249, 249, 0.8);
 
     video {
-      opacity: 1;
+        opacity:1;
+      z-index:2;
     }
+   
   }
 `;
 
