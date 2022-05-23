@@ -8,7 +8,10 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+<<<<<<< HEAD
 import Login from "./components/Login";
+=======
+>>>>>>> 2ed3c3b79a2e0f55bd7df9bf0b10eb5a51ba8ca3
 function App() {
  
   return (
@@ -18,7 +21,10 @@ function App() {
      <Routes>
      <Route path="/" element={<Home/>} />
      <Route path="/detail" element={<Detail/>} />
+<<<<<<< HEAD
      <Route path="/login" element={<Login/>} />
+=======
+>>>>>>> 2ed3c3b79a2e0f55bd7df9bf0b10eb5a51ba8ca3
      </Routes>
      </Router>
      
