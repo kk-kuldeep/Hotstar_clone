@@ -16,6 +16,7 @@ function Header() {
          auth.signInWithPopup(provider)
          .then((result)=>{
             let user = result.user
+            //dispatch all the user data
             dispatch(setUserLogin({
                 name:user.displayName,
                 email: user.email,
