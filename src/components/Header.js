@@ -1,6 +1,11 @@
 import React from 'react'
-import styled from 'styled-components'
 
+import styled from 'styled-components'
+import{
+    selectUserName,
+    selectUserPhoto
+} from "../features/user/userSlice"
+import { userSelector } from "react-redux"
 function Header() {
     return (
         <Nav>

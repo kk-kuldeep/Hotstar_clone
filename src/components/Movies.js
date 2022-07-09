@@ -1,11 +1,29 @@
 import React from "react";
 import styled from "styled-components";
-
+import { selectMovies } from "../features/movie/movieSlice";
+import {useSelector} from "react-redux"
 function Movies() {
+
+  const movies = useSelector(selectMovies);
+  console.log(movies);
+
   return (
+    
+
+
     <Container>
+   
       <h4>Recommended for You</h4>
       <Content>
+      {
+        movies && 
+        movies.map((movie)=>{
+          <Wrap>
+          
+            <img src={movie.cardImg} />
+        </Wrap>
+        })
+      }
         <Wrap>
           <a href="/detail">
             <img src="/images/shang-chi.png" />

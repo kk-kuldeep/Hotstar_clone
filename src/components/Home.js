@@ -9,8 +9,8 @@ import { setMovies } from '../features/movie/movieSlice'
 function Home() {
     const dispatch = useDispatch();
     useEffect(()=>{
-        console.log("hii");
-        db.collection("movies").onSnapshot((snapshot)=>{
+        //console.log("hii");
+        db.collection('movies').onSnapshot((snapshot)=>{
             let tempMovies = snapshot.docs.map((doc)=>{
                 return {id:doc.id,...doc.data()}
             })
