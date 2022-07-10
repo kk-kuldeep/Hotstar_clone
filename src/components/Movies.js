@@ -11,7 +11,7 @@ function Movies() {
 
     <Container>
    
-      <h4>Recommended for You</h4>
+      <h4 id="rex">Recommended for You</h4>
       <Content>
       {
         movies && 
@@ -63,7 +63,7 @@ function Movies() {
           </a>
         </Wrap>
       </Content>
-      <h4>Action and Adventure</h4>
+      <h4 id='ana'>Action and Adventure</h4>
       <Content>
         <Wrap>
           <a href="/detail">
@@ -106,7 +106,7 @@ function Movies() {
           </a>
         </Wrap>
       </Content>
-      <h4>Mickey and Friends</h4>
+      <h4 id='maf'>Mickey and Friends</h4>
       <Content>
         <Wrap>
           <a href="/detail">
