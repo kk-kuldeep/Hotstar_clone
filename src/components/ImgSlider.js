@@ -20,22 +20,22 @@ function ImgSlider() {
         <Carousel {...settings}>
             <Wrap>
             <a href="/detail">
-                <img src="/images/slider-badging.jpg" />
+                <img src="/images/slider-badging.jpg"  alt="img"/>
                 </a>
             </Wrap>
             <Wrap>
             <a href="/detail">
-                <img src="/images/slider-badag.jpg" />
+                <img src="/images/slider-badag.jpg"  alt="img"/>
                 </a>
             </Wrap>
             <Wrap>
             <a href="/detail">
-                <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/46B428B48739ED520A3ED05C60E048ADA6FC0BCC2DB2B2F897092C466BF6F5FA/scale?width=1440&aspectRatio=3.91&format=jpeg" />
+                <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/46B428B48739ED520A3ED05C60E048ADA6FC0BCC2DB2B2F897092C466BF6F5FA/scale?width=1440&aspectRatio=3.91&format=jpeg"  alt="img"/>
                 </a>
             </Wrap>
             <Wrap>
             <a href="/detail">
-                <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/07003EE660ABB5B858A4F0F766C79EE7BE1ADE41E2C8FD4E8998DF9E04505A77/scale?width=1440&aspectRatio=3.91&format=jpeg" />
+                <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/07003EE660ABB5B858A4F0F766C79EE7BE1ADE41E2C8FD4E8998DF9E04505A77/scale?width=1440&aspectRatio=3.91&format=jpeg"  alt="img"/>
                 </a>
             </Wrap>
             

@@ -13,7 +13,7 @@ function Movies() {
    
       <h4 id="rex">Recommended for You</h4>
       <Content>
-      {
+      {/* {
         movies && 
         movies.map((movie)=>{
           <Wrap>
@@ -21,45 +21,45 @@ function Movies() {
             <img src={movie.cardImg} />
         </Wrap>
         })
-      }
+      } */}
         <Wrap>
           <a href="/detail">
-            <img src="/images/shang-chi.png" />
+            <img src="/images/shang-chi.png" alt="img"/>
           </a>
         </Wrap>
         <Wrap>
           <a href="/detail">
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/1518/1161518-v-8d86a7ed8500" />
+            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/1518/1161518-v-8d86a7ed8500" alt="img"/>
           </a>
         </Wrap>
         <Wrap>
           <a href="/detail">
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/7519/1097519-v-7235f9a4b235" />
+            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/7519/1097519-v-7235f9a4b235" alt="img"/>
           </a>
         </Wrap>
         <Wrap>
           <a href="/detail">
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/5162/875162-v" />
+            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/5162/875162-v" alt="img"/>
           </a>
         </Wrap>
         <Wrap>
           <a href="/detail">
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/8690/1078690-v-0cb0fd8d0f22" />
+            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/8690/1078690-v-0cb0fd8d0f22" alt="img"/>
           </a>
         </Wrap>
         <Wrap>
           <a href="/detail">
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/1636/1161636-v-1334423c2043" />
+            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/1636/1161636-v-1334423c2043" alt="img"/>
           </a>
         </Wrap>
         <Wrap>
           <a href="/detail">
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/4971/674971-v" />
+            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/4971/674971-v" alt="img"/>
           </a>
         </Wrap>
         <Wrap>
           <a href="/detail">
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/5242/875242-v" />
+            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/5242/875242-v" alt="img"/>
           </a>
         </Wrap>
       </Content>
@@ -67,42 +67,42 @@ function Movies() {
       <Content>
         <Wrap>
           <a href="/detail">
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/1691/1011691-v-657881703c09" />
+            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/1691/1011691-v-657881703c09" alt="img"/>
           </a>
         </Wrap>
         <Wrap>
           <a href="/detail">
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/2949/1052949-v-f2364f3b06ab" />
+            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/2949/1052949-v-f2364f3b06ab" alt="img"/>
           </a>
         </Wrap>
         <Wrap>
           <a href="/detail">
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/9289/1039289-v-d29d30949241" />
+            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/9289/1039289-v-d29d30949241" alt="img"/>
           </a>
         </Wrap>
         <Wrap>
           <a href="/detail">
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/1744/1041744-v-f84d36239d74" />
+            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/1744/1041744-v-f84d36239d74" alt="img"/>
           </a>
         </Wrap>
         <Wrap>
           <a href="/detail">
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1x/sources/r1/cms/prod/7809/877809-v" />
+            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1x/sources/r1/cms/prod/7809/877809-v" alt="img"/>
           </a>
         </Wrap>
         <Wrap>
           <a href="/detail">
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/2442/862442-v" />
+            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/2442/862442-v" alt="img"/>
           </a>
         </Wrap>
         <Wrap>
           <a href="/detail">
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1x/sources/r1/cms/prod/8806/798806-v" />
+            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1x/sources/r1/cms/prod/8806/798806-v" alt="img"/>
           </a>
         </Wrap>
         <Wrap>
           <a href="/detail">
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/9562/799562-v" />
+            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/9562/799562-v" alt="img"/>
           </a>
         </Wrap>
       </Content>
@@ -110,42 +110,42 @@ function Movies() {
       <Content>
         <Wrap>
           <a href="/detail">
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1x/sources/r1/cms/prod/9389/1119389-v-8d06625813a0" />
+            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1x/sources/r1/cms/prod/9389/1119389-v-8d06625813a0" alt="img"/>
           </a>
         </Wrap>
         <Wrap>
           <a href="/detail">
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/1645/831645-v" />
+            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/1645/831645-v" alt="img"/>
           </a>
         </Wrap>
         <Wrap>
           <a href="/detail">
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/9222/689222-v" />
+            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/9222/689222-v" alt="img"/>
           </a>
         </Wrap>
         <Wrap>
           <a href="/detail">
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/260/650260-v" />
+            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/260/650260-v" alt="img"/>
           </a>
         </Wrap>
         <Wrap>
           <a href="/detail">
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/6365/656365-v" />
+            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/6365/656365-v" alt="img"/>
           </a>
         </Wrap>
         <Wrap>
           <a href="/detail">
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/3698/673698-v" />
+            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/3698/673698-v" alt="img"/>
           </a>
         </Wrap>
         <Wrap>
           <a href="/detail">
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1x/sources/r1/cms/prod/3761/673761-v" />
+            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1x/sources/r1/cms/prod/3761/673761-v" alt="img"/>
           </a>
         </Wrap>
         <Wrap>
           <a href="/detail">
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/3702/673702-v" />
+            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/3702/673702-v" alt="img"/>
           </a>
         </Wrap>
       </Content>

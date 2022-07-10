@@ -13,7 +13,7 @@ function Header() {
     const dispatch = useDispatch();
     const navigate = useNavigate()
     const userName = useSelector(selectUserName);
-    const userPhoto = useSelector(selectUserPhoto);
+    // const userPhoto = useSelector(selectUserPhoto);
 
     useEffect(()=>{
         auth.onAuthStateChanged(async(user)=>{
@@ -66,27 +66,27 @@ function Header() {
                 
                 <NavMenu>
                 <a href='/login'>
-                    <img src="/images/home-icon.svg" />
+                    <img src="/images/home-icon.svg"  alt="img"/>
                     <span>HOME</span>
                 </a>
                 <a >
-                    <img src="/images/search-icon.svg" />
+                    <img src="/images/search-icon.svg"  alt="img"/>
                     <span >SEARCH</span>
                 </a>
                 <a href='#rex'>
-                    <img src="/images/watchlist-icon.svg" />
+                    <img src="/images/watchlist-icon.svg"  alt="img"/>
                     <span>WATCHLIST</span>
                 </a>
                 <a href='#rex'>
-                    <img src="/images/original-icon.svg" />
+                    <img src="/images/original-icon.svg"  alt="img"/>
                     <span>ORIGINALS</span>
                 </a>
                 <a href='#maf'>
-                    <img src="/images/movie-icon.svg" />
+                    <img src="/images/movie-icon.svg"  alt="img"/>
                     <span>MOVIES</span>
                 </a>
                 <a href='#ana'>
-                    <img src="/images/series-icon.svg" />
+                    <img src="/images/series-icon.svg"  alt="img"/>
                     <span>SERIES</span>
                 </a>
             </NavMenu>
