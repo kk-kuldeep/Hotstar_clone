@@ -1,4 +1,4 @@
-# functionality
+# Functionality
 1. Login through Google Auth.
 2. sign out by clicking on profile
 3. without login you can't see the content
@@ -14,6 +14,6 @@
 6. FIREBASE (FOR GOOGLE AUTHENTICATION AND KEEP TRACK OF USERS)
 
 
-#LIVE DEMO
+# LIVE DEMO
 
-[CLICK HERE TO WATCH LIVE DEMO]('https://hotstar-clone-2.herokuapp.com/')
+[CLICK HERE TO WATCH LIVE DEMO](https://hotstar-clone-2.herokuapp.com/)
